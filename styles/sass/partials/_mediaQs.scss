@@ -1,0 +1,43 @@
+@use "./variables";
+
+// @media (max-width: 1040px) {
+//   header {
+//     margin-top: 70px;
+//     added the margin to header instead
+//   }
+// }
+
+@media (max-width: 1000px) {
+  /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+  header {
+    .headerTextContainer {
+      padding: 0 50px; 
+    }
+
+    h3 {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  /* all of our styles for TABLET devices will go within this breakpoint */
+  header {
+    display: flex;
+    flex-direction: column;
+      .headerImgContainer {
+        width: 100%; 
+        height: 50vh;
+        overflow: hidden;
+        object-fit: cover;
+      }
+
+      .headerTextContainer {
+        width: 65%; 
+      }
+  }
+}
+
+@media (max-width: 500px) {
+  /* all of our styles for MOBILE devices will go within this breakpoint */
+}
