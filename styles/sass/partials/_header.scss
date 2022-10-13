@@ -11,7 +11,10 @@ header {
   }
   .headerTextContainer {
     width: 55%;
-
-
+    padding: 0 90px; 
+    // ^ or to achieve the same  
+    // margin: 0 auto;
+    // max-width: 600px;
   }
 }
+

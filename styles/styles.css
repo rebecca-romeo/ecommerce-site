@@ -481,4 +481,5 @@ header .headerImgContainer {
 }
 header .headerTextContainer {
   width: 55%;
+  padding: 0 90px;
 }
