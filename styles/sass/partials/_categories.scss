@@ -1,0 +1,10 @@
+@use "./variables" as v;
+
+
+.categoryGallery {
+  display: flex;
+  flex-wrap: wrap;
+  .items {
+    width: 40%;
+  }
+}
